@@ -24,7 +24,7 @@ Welcome to my GitHub portfolio! Here, you'll find a collection of my projects th
 ## 📚 Skills
 
 ### Tools & Technologies:
-- **Python:** Pandas, NumPy, Scikit-learn, TensorFlow, Matplotlib
+- **Python:** NumPy, Pandas, Flask, Matplotlib, PyGame
 - Jupyter Notebook, Visual Studio Code
 - Tableau
 - Git and GitHub
@@ -32,7 +32,7 @@ Welcome to my GitHub portfolio! Here, you'll find a collection of my projects th
 ---
 
 ## 📞 Contact Me
-I'm always open to connecting with fellow data enthusiasts and exploring exciting opportunities. You can reach me at:  
+I'm always open to connecting with fellow data science enthusiasts and exploring exciting opportunities. You can reach me at:  
 📧 **Email:** [kgilland@nd.edu](kgilland@nd.edu)  
 🔗 **LinkedIn:** [kmgilland](https://linkedin.com/in/kmgilland)  
 📐 **Behance:** [kmgilland](https://behance.net/kmgilland)  
