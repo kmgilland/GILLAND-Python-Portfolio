@@ -1,6 +1,6 @@
 # 🌟 Katherine Gilland's Data Science Portfolio
 
-Welcome to my GitHub portfolio! Here, you'll find a collection of my projects that showcase my skills and experience. Feel free to explore, and don't hesitate to reach out if you'd like to collaborate!
+Welcome to my GitHub portfolio! Here, you'll find a collection of projects that showcase my skills and experience. Feel free to explore, and don't hesitate to reach out if you'd like to collaborate!
 
 ---
 
@@ -13,10 +13,9 @@ Welcome to my GitHub portfolio! Here, you'll find a collection of my projects th
 
 ## 📊 Projects
 
-### **1. Project Title** 🧠
-**Description:**  
-**Skills Used:**  
-**Highlights:**  
+### ⚽ **1. EA Sports FC 25 - Female Players Explorer** 
+**Description:**  This Streamlit app allows users to explore and filter female playable character data from EA Sports FC 25. Users can filter players by team, nationality, position, and overall rating, as well as view detailed stats for selected players.  
+**Skills Used:**  Python, Pandas, Streamlit  
 **Repository:**  
 
 ---
@@ -24,7 +23,7 @@ Welcome to my GitHub portfolio! Here, you'll find a collection of my projects th
 ## 📚 Skills
 
 ### Tools & Technologies:
-- **Python:** NumPy, Pandas, Flask, Matplotlib, PyGame
+- **Python:** NumPy, Pandas, Flask, Matplotlib, PyGame, Streamlit
 - Jupyter Notebook, Visual Studio Code
 - Tableau
 - Git and GitHub
