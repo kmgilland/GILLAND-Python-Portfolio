@@ -27,11 +27,11 @@ Installation
 1.  Clone the repository:
 
     ```
-    git clone https://github.com/your-repo/ea-fc25-streamlit.git
-    cd ea-fc25-streamlit
+    git clone https://github.com/kmgilland/GILLAND-Python-Portfolio/tree/main/basic_streamlit_app.git 
+    cd basic_streamlit_app
     ```
 
-2.  Ensure that python, pandas, and streamlit are all installed.
+2.  Ensure that Python, Pandas, and Streamlit are all installed.
 
 3.  Run the app:
 

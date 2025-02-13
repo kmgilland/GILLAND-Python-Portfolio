@@ -16,7 +16,7 @@ Welcome to my GitHub portfolio! Here, you'll find a collection of projects that 
 ### ⚽ **1. EA Sports FC 25 - Female Players Explorer** 
 **Description:**  This Streamlit app allows users to explore and filter female playable character data from EA Sports FC 25. Users can filter players by team, nationality, position, and overall rating, as well as view detailed stats for selected players.  
 **Skills Used:**  Python, Pandas, Streamlit  
-**Repository:**  
+**Repository:**  https://github.com/kmgilland/GILLAND-Python-Portfolio/tree/main/basic_streamlit_app 
 
 ---
 
