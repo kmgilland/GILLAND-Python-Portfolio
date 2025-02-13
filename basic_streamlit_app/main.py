@@ -9,10 +9,6 @@ df = pd.read_csv(players)
 st.title("EA Sports FC 25: Female Players Explorer")
 st.write("Welcome, prospective managers! Here you can explore player ratings, stats, and filters for all female playable characters in EA Sports FC 25.")
 
-# Load dataset
-file_path = "data/female_players.csv"
-df = pd.read_csv(file_path)
-
 # Position Mapping
 position_map = {
     "GK": "Goalkeeper",
