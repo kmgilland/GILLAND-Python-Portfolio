@@ -29,7 +29,7 @@ Welcome to my GitHub portfolio! Here, you'll find a collection of projects that 
 ## 📚 Skills
 
 ### Tools & Technologies:
-- **Python:** NumPy, Pandas, Flask, Matplotlib, PyGame, Streamlit
+- **Python:** NumPy, Pandas, Flask, Matplotlib, PyGame, Seaborn, Streamlit
 - Jupyter Notebook, Visual Studio Code
 - Tableau
 - Git and GitHub
