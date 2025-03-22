@@ -1,4 +1,4 @@
-# Tidy Data Cleaning and Analysis
+# 📈 Tidy Data Cleaning and Analysis
 
 ## Project Overview
 This project focuses on cleaning and transforming a dataset containing U.S. federal research and development (R&D) funding across various departments from 1976 to 2017. The dataset also includes GDP values for each year. Using **Tidy Data Principles**, I reshaped and cleaned the dataset to ensure:
