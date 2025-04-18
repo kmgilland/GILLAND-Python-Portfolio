@@ -24,12 +24,19 @@ Welcome to my GitHub portfolio! Here, you'll find a collection of projects that 
 **Skills Used:**  Python, Pandas, Numpy, Matplot, Seaborn  
 **Repository:**  https://github.com/kmgilland/GILLAND-Python-Portfolio/tree/main/TidyData-Project
 
+
+### 🧠  **3. Named Entity Recognition Streamlit App**  
+**Description:**  This Streamlit app allows users to explore Named Entity Recognition (NER) using spaCy and Streamlit. Users can upload their own text, define custom entity labels and rules, and visualize the recognized entities with clear, colorful highlighting. This project is my first official foray into the world of natural language processing, and helps to combine my academic interests of literature and linguistics with my data science skills.  
+**Skills Used:**  Python, spaCy, Streamlit  
+**Repository:**  https://github.com/kmgilland/GILLAND-Python-Portfolio/tree/main/NERStreamlitApp  
+
+
 ---
 
 ## 📚 Skills
 
 ### Tools & Technologies:
-- **Python:** NumPy, Pandas, Flask, Matplotlib, PyGame, Seaborn, Streamlit
+- **Python:** NumPy, Pandas, Flask, Matplotlib, PyGame, Seaborn, spaCy, Streamlit
 - Jupyter Notebook, Visual Studio Code
 - Tableau
 - Git and GitHub
