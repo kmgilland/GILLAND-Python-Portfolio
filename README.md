@@ -18,12 +18,18 @@ Welcome to my GitHub portfolio! Here, you'll find a collection of projects that 
 **Skills Used:**  Python, Pandas, Streamlit  
 **Repository:**  https://github.com/kmgilland/GILLAND-Python-Portfolio/tree/main/basic_streamlit_app 
 
+
+### 📈 **2. Tidy Data Cleaning and Analysis** 
+**Description:**  This project cleans up a dataset containing U.S. federal research and development (R&D) funding across various departments from 1976 to 2017, as well as GDP values for each year. After tidy data is achieved, visualizations are added to show various trends in the data.  
+**Skills Used:**  Python, Pandas, Numpy, Matplot, Seaborn  
+**Repository:**  https://github.com/kmgilland/GILLAND-Python-Portfolio/tree/main/TidyData-Project
+
 ---
 
 ## 📚 Skills
 
 ### Tools & Technologies:
-- **Python:** NumPy, Pandas, Flask, Matplotlib, PyGame, Streamlit
+- **Python:** NumPy, Pandas, Flask, Matplotlib, PyGame, Seaborn, Streamlit
 - Jupyter Notebook, Visual Studio Code
 - Tableau
 - Git and GitHub
