@@ -9,7 +9,7 @@ This interactive web app allows users to explore **Named Entity Recognition (NER
 
 ## 🚀 Live Demo
 
-👉 [Click here to try the app on Streamlit Community Cloud](https://url)
+👉 [Click here to try the app on Streamlit Community Cloud](https://kmgilland-gilland-python-portfolio-nerstreamlitappmain-5ok2sv.streamlit.app/)
 
 ---
 
