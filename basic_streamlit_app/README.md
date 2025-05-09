@@ -6,6 +6,10 @@ Overview
 
 Welcome to the **EA Sports FC 25 - Female Players Explorer**! This Streamlit app allows users to explore and filter **female playable character data** from **EA Sports FC 25**. Users can filter players by **team, nationality, position, and overall rating**, as well as view detailed stats for selected players.
 
+## 🚀 Live Demo
+
+👉 [Click here to try the app on Streamlit Community Cloud](https://kmgilland-gilland-python-portfol-basic-streamlit-appmain-diqvfb.streamlit.app/)
+
 Features
 --------
 
