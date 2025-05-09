@@ -7,6 +7,19 @@ The app automatically loads figure data from a central `box_data.csv` file, allo
 
 ![manage_my_collection.png](manage_my_collection.png)
 
+## 🚀 Live Demo
+
+👉 [Click here to try the app on Streamlit Community Cloud](https://kmgilland-gilland-python-port-streamlitappfinalstreamlit-it3xc5.streamlit.app/)
+
+## 📂 Project Structure
+
+- `Streamlit.py` – Main Streamlit application
+- `box_data.csv` - Dataset
+- `requirements.txt` – Python dependencies
+- `README.md` – Project documentation
+- `StreamlitAppFinal/` – GitHub folder containing this app in my portfolio
+- `browse_loaded_series.png`, `manage_my_collection.png`, `my_collection_stats.png`, `probability_workbench.png`, `target_overview.png` - Example screenshots from app
+
 ## Dataset Description
 The primary data source for the application is a single CSV file named `box_data.csv`. This file is expected to be in the same directory as the Streamlit application script and should contain the following columns:
 
