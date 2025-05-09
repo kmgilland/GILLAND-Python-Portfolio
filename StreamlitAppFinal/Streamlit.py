@@ -117,7 +117,6 @@ def main():
        ('all_loaded_series_data_df' in st.session_state and st.session_state.all_loaded_series_data_df.empty and not st.session_state.data_load_attempted): # Check if data load was attempted
         st.session_state.data_load_attempted = True # Set the flag to indicate data load was attempted
         try: # Attempt to load the CSV file
-            st.info(f"Attempting to load data from URL: {DATA_URL}") # Inform the user about the data loading process
             df = pd.read_csv(DATA_URL, dtype=str) # Load the CSV file into a DataFrame
 
             csv_cols_needed_for_core_functionality = ['character_name', 'series_name', 'figure_name', 'price', 'probability']
