@@ -31,8 +31,8 @@ Welcome to my GitHub portfolio! Here, you'll find a collection of projects that 
 **Repository:**  https://github.com/kmgilland/GILLAND-Python-Portfolio/tree/main/NERStreamlitApp  
 
 ### 🎁  **4. Blind Box Collector's Companion - Streamlit App**  
-**Description:**  The Blind Box Collector's Companion is a Streamlit application designed to help enthusiasts of blind box figures manage their collections, track desired ("target") figures, and analyze purchasing strategies. It addresses common challenges faced by collectors, such as keeping track of owned items (including duplicates), understanding spending, and evaluating the probability of obtaining specific figures from various series.
-**Skills Used:**  Python, Pandas, Numpy, Matplot, Seaborn, Streamlit  
+**Description:**  The Blind Box Collector's Companion is a Streamlit application designed to help enthusiasts of blind box figures manage their collections, track desired ("target") figures, and analyze purchasing strategies. It addresses common challenges faced by collectors, such as keeping track of owned items (including duplicates), understanding spending, and evaluating the probability of obtaining specific figures from various series.  
+**Skills Used:**  Python, Pandas, Numpy, Matplot, Seaborn, Streamlit   
 **Repository:**  https://github.com/kmgilland/GILLAND-Python-Portfolio/tree/main/StreamlitAppFinal
 
 
