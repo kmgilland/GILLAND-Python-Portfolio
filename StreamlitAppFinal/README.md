@@ -5,6 +5,8 @@ The Blind Box Collector's Companion is a Streamlit application designed to help 
 
 The app automatically loads figure data from a central `box_data.csv` file, allowing users to quickly get started with managing their collection.
 
+![manage_my_collection.png](manage_my_collection.png)
+
 ## Dataset Description
 The primary data source for the application is a single CSV file named `box_data.csv`. This file is expected to be in the same directory as the Streamlit application script and should contain the following columns:
 
@@ -117,29 +119,28 @@ The primary data source for the application is a single CSV file named `box_data
 * Implement more advanced filtering options in the "Browse" tab.
 * Add functionality to export the user's collection data.
 * Introduce user accounts for saving collections persistently.
-* Allow users to define custom character series or figures not present in the master CSV.
 
 ## Visual Examples
 
 **Example Screenshot: Manage My Collection Tab**
 
-[manage_my_collection.png](manage_my_collection.png)
+![manage_my_collection.png](manage_my_collection.png)
 
 **Example Screenshot: Target Overview Tab**
 
-[target_overview.png](target_overview.png)
+![target_overview.png](target_overview.png)
 
 **Example Screenshot: My Collection Stats Tab**
 
-[my_collection_stats.png](my_collection_stats.png)
+![my_collection_stats.png](my_collection_stats.png)
 
 **Example Screenshot: Probability Workbench Tab**
 
-[probability_workbench.png](probability_workbench.png)
+![probability_workbench.png](probability_workbench.png)
 
 **Example Screenshot: Browse Loaded Series Tab**
 
-[browse_loaded_series.png](browse_loaded_series.png)
+![browse_loaded_series.png](browse_loaded_series.png)
 
 
 ## References & Resources
