@@ -13,11 +13,11 @@ The dataset originally contained:
 - Funding amounts scattered across multiple columns.
 
 ## 🧹 Data Cleaning Steps
-1. **Reshaping Data**: I used `melt()` to transform the dataset from wide to long format, ensuring each year is an individual observation.
-2. **Separating Variables**: I used `str.split()` to extract **year** and **GDP** into separate columns.
-3. **Converting Data Types**: I changed `year` to an integer and `gdp` to a float for consistency.
-4. **Removing Redundant Columns**: I dropped the original `year_gdp` column after extraction.
-5. **Handling Missing Values**: I ensured missing funding values are handled appropriately.
+1. **🗜 Reshaping Data**: I used `melt()` to transform the dataset from wide to long format, ensuring each year is an individual observation.
+2. **📑 Separating Variables**: I used `str.split()` to extract **year** and **GDP** into separate columns.
+3. **🗃 Converting Data Types**: I changed `year` to an integer and `gdp` to a float for consistency.
+4. **🏛 Removing Redundant Columns**: I dropped the original `year_gdp` column after extraction.
+5. **🖐 Handling Missing Values**: I ensured missing funding values are handled appropriately.
 
 ## 🗂 Aggregation
 - I created a **pivot table** to compute the total **R&D funding per year**.
