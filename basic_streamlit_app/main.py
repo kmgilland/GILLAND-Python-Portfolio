@@ -3,7 +3,8 @@ import pandas as pd
 
 # Import dataset
 players = "data/female_players.csv"
-df = pd.read_csv(players)
+data_url = "https://raw.githubusercontent.com/kmgilland/GILLAND-Python-Portfolio/refs/heads/main/basic_streamlit_app/data/female_players.csv"
+df = pd.read_csv(data_url, dtype=str)
 
 # Introduction
 st.title("EA Sports FC 25: Female Players Explorer")
