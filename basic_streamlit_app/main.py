@@ -6,6 +6,15 @@ players = "data/female_players.csv"
 data_url = "https://raw.githubusercontent.com/kmgilland/GILLAND-Python-Portfolio/refs/heads/main/basic_streamlit_app/data/female_players.csv"
 df = pd.read_csv(data_url, dtype=str)
 
+if "OVR" in df.columns:
+    df["OVR"] = pd.to_numeric(df["OVR"], errors='coerce')
+    # Optional: drop rows where "OVR" could not be converted, if that makes sense for your app
+    # df.dropna(subset=["OVR"], inplace=True)
+else:
+    st.error("The 'OVR' column was not found in the DataFrame.")
+    # You might want to stop execution or handle this case differently
+    st.stop()
+
 # Introduction
 st.title("EA Sports FC 25: Female Players Explorer")
 st.write("Welcome, prospective managers! Here you can explore player ratings, stats, and filters for all female playable characters in EA Sports FC 25.")
