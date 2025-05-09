@@ -13,6 +13,10 @@ st.set_page_config( # Set up the page configuration
 )
 
 # --- Constants ---
+
+# URL for the master CSV data file on GitHub
+DATA_URL = "https://raw.githubusercontent.com/kmgilland/GILLAND-Python-Portfolio/refs/heads/main/StreamlitAppFinal/box_data.csv"
+
 EXPECTED_CSV_COLUMNS_FOR_APP_LOGIC = [
     'character_name',  # e.g., Peach Riot, Skullpanda
     'series_name',     # e.g., Rise Up, The Mare
@@ -113,13 +117,15 @@ def main():
        ('all_loaded_series_data_df' in st.session_state and st.session_state.all_loaded_series_data_df.empty and not st.session_state.data_load_attempted): # Check if data load was attempted
         st.session_state.data_load_attempted = True # Set the flag to indicate data load was attempted
         try: # Attempt to load the CSV file
-            df = pd.read_csv("box_data.csv", dtype=str)
+            st.info(f"Attempting to load data from URL: {DATA_URL}") # Inform the user about the data loading process
+            df = pd.read_csv(DATA_URL, dtype=str) # Load the CSV file into a DataFrame
 
             csv_cols_needed_for_core_functionality = ['character_name', 'series_name', 'figure_name', 'price', 'probability']
             missing_cols = [col for col in csv_cols_needed_for_core_functionality if col not in df.columns] # Check for missing columns
 
             if missing_cols:
-                st.error(f"Critical Error: Your 'box_data.csv' file is missing the following essential columns: {', '.join(missing_cols)}. ") # Error message for missing columns
+                st.error(f"Critical Error: The CSV data from the URL is missing the following essential columns: {', '.join(missing_cols)}. "
+                         "The application cannot proceed without them. Please check the CSV file at the source.") # Error message for missing columns
                 st.session_state.all_loaded_series_data_df = pd.DataFrame(columns=APP_INTERNAL_COLUMNS) # Initialize empty DataFrame
             else: # Process the DataFrame
                 df.rename(columns={
