@@ -1,16 +1,19 @@
 ⚽ EA Sports FC 25 - Female Players Explorer
 =========================================
 
-Overview
+🌟 Overview
 --------
 
 Welcome to the **EA Sports FC 25 - Female Players Explorer**! This Streamlit app allows users to explore and filter **female playable character data** from **EA Sports FC 25**. Users can filter players by **team, nationality, position, and overall rating**, as well as view detailed stats for selected players.
+
+![visualization1.png](visualization1.png)
+![visualization2.png](visualization2.png)
 
 ## 🚀 Live Demo
 
 👉 [Click here to try the app on Streamlit Community Cloud](https://kmgilland-gilland-python-portfol-basic-streamlit-appmain-diqvfb.streamlit.app/)
 
-Features
+🛠 Features
 --------
 
 -   **Filter players** by team, nationality, position, and overall rating.
@@ -25,7 +28,7 @@ Features
 
 -   **Handles empty selections** by displaying a message if no players match the filters.
 
-Installation
+🖥 Installation
 ------------
 
 1.  Clone the repository:
@@ -43,7 +46,7 @@ Installation
     streamlit run main.py
     ```
 
-Dataset
+📚 Dataset
 -------
 
 -   The app loads data from `female_players.csv`.
@@ -52,7 +55,7 @@ Dataset
 
 -   All data is sourced from [The Complete EA Sports FC Database](https://www.kaggle.com/datasets/nyagami/ea-sports-fc-25-database-ratings-and-stats/data) 
 
-Usage
+⚙️ Usage
 -----
 
 -   Open the sidebar to filter by **Team**, **Nation**, **Position**, or **Overall Rating**.
@@ -63,7 +66,7 @@ Usage
 
 -   If no players match the selected filters, a message will appear instead of an error.
 
-License
+📒 License
 -------
 
 This project is for educational purposes and is not affiliated with EA Sports.
